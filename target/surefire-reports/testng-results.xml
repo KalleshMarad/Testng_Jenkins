@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteExecution" duration-ms="45" started-at="2021-03-19T08:11:37Z" finished-at="2021-03-19T08:11:37Z">
+    <groups>
+      <group name="bonding">
+        <method signature="TestNG_groups.group_method()[pri:0, instance:com.testng.java.TestNG_groups@234bef66]" name="group_method" class="com.testng.java.TestNG_groups"/>
+        <method signature="TestNG_groups.group_method1()[pri:0, instance:com.testng.java.TestNG_groups@234bef66]" name="group_method1" class="com.testng.java.TestNG_groups"/>
+      </group> <!-- bonding -->
+    </groups>
+    <test name="Test1" duration-ms="45" started-at="2021-03-19T08:11:37Z" finished-at="2021-03-19T08:11:37Z">
+      <class name="com.testng.java.TestNG_groups">
+        <test-method status="PASS" signature="group_method1()[pri:0, instance:com.testng.java.TestNG_groups@234bef66]" name="group_method1" duration-ms="15" started-at="2021-03-19T13:41:37Z" finished-at="2021-03-19T13:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- group_method1 -->
+        <test-method status="PASS" signature="group_method()[pri:0, instance:com.testng.java.TestNG_groups@234bef66]" name="group_method" duration-ms="15" started-at="2021-03-19T13:41:37Z" finished-at="2021-03-19T13:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- group_method -->
+      </class> <!-- com.testng.java.TestNG_groups -->
+    </test> <!-- Test1 -->
+  </suite> <!-- SuiteExecution -->
+</testng-results>
